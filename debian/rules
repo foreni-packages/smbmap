@@ -1,0 +1,8 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@ --with python2
+
+override_dh_install:
+	dh_install
+	chmod 755 debian/smbmap/usr/share/smbmap/smbmap.py

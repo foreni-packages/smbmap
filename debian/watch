@@ -1,0 +1,3 @@
+# no release yet, just in case
+version=3
+https://github.com/ShawnDEvans/smbmap/tags .*/v(.*)\.tar\.gz

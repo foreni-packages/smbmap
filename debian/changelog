@@ -1,0 +1,5 @@
+smbmap (0.1+git20150430-0kali1) kali; urgency=medium
+
+  * Initial packaging for kali
+
+ -- Sophie Brun <sophie@freexian.com>  Thu, 30 Apr 2015 15:27:38 +0200

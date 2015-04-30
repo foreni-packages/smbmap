@@ -1,0 +1,20 @@
+Source: smbmap
+Section: misc
+Priority: optional
+Maintainer: Sophie Brun <sophie@freexian.com>
+Build-Depends: debhelper (>= 9), python
+Standards-Version: 3.9.6
+Homepage: https://github.com/ShawnDEvans/smbmap
+Vcs-Git: git://git.kali.org/packages/smbmap.git
+Vcs-Browser: http://git.kali.org/gitweb?p=packages/smbmap.git;a=summary
+
+Package: smbmap
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}, python-impacket (>= 0.9.11)
+Description: handy SMB enumeration tool
+ SMBMap allows users to enumerate samba share drives across an entire domain.
+ List share drives, drive permissions, share contents, upload/download
+ functionality, file name auto-download pattern matching, and even execute
+ remote commands. This tool was designed with pen testing in mind, and is
+ intended to simplify searching for potentially sensitive data across large
+ networks.

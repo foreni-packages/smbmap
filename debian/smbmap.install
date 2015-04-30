@@ -1,0 +1,2 @@
+smbmap.py usr/share/smbmap/
+debian/helper-script/* usr/bin/

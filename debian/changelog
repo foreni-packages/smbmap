@@ -1,3 +1,9 @@
+smbmap (1.0.5-0kali1) kali-dev; urgency=medium
+
+  * Import new upstream release
+
+ -- Sophie Brun <sophie@freexian.com>  Thu, 16 Jul 2015 15:33:55 +0200
+
 smbmap (0.1+git20150430-0kali1) kali; urgency=medium
 
   * Initial packaging for kali
